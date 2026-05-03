@@ -21,7 +21,7 @@
                  }
              },
             {
-                 name: '领取每日签到任务奖励',
+                 name: '领取每日签任务奖励',
                  request_url: 'exchange',
                  success_message: '草还丹x5',
                  success_error: '领取每日签到任务奖励失败',
@@ -62,6 +62,21 @@
                      uIdx: 'player.uin',
                  }
             },
+            {
+                 name: '领取每日获取草还丹15任务奖励',
+                 request_url: 'exchange',
+                 success_message: '草还丹x5',
+                 success_error: '领取每日获取草还丹15任务失败',
+                 hasPackageReturn: true,
+                 type: 'nc',
+                 data: {
+                     id: 23150207,
+                     act: 2404002,
+                     uinY: 'player.uin',
+                     uIdx: 'player.uin',
+                 }
+            },
+
          ]
      }
  
