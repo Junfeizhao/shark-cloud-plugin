@@ -19,7 +19,49 @@
                      uinY: 'player.uin',
                      uIdx: 'player.uin',
                  }
-             }
+             },
+            {
+                 name: '领取每日签到任务奖励',
+                 request_url: 'exchange',
+                 success_message: '草还丹x5',
+                 success_error: '领取每日签到任务奖励失败',
+                 hasPackageReturn: true,
+                 type: 'nc',
+                 data: {
+                     id: 23150206,
+                     act: 2404002,
+                     uinY: 'player.uin',
+                     uIdx: 'player.uin',
+                 }
+            },
+               {
+                 name: '领取竞技场pvp任务奖励',
+                 request_url: 'exchange',
+                 success_message: '草还丹x5',
+                 success_error: '领取竞技场pvp奖励失败',
+                 hasPackageReturn: true,
+                 type: 'nc',
+                 data: {
+                     id: 23150208,
+                     act: 2404002,
+                     uinY: 'player.uin',
+                     uIdx: 'player.uin',
+                 }
+            },
+             {
+                 name: '领取庭院赠礼任务奖励',
+                 request_url: 'exchange',
+                 success_message: '草还丹x5',
+                 success_error: '领取庭院赠礼任务奖励失败',
+                 hasPackageReturn: true,
+                 type: 'nc',
+                 data: {
+                     id: 23150209,
+                     act: 2404002,
+                     uinY: 'player.uin',
+                     uIdx: 'player.uin',
+                 }
+            },
          ]
      }
  
