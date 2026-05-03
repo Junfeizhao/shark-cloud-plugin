@@ -11,7 +11,14 @@
                      data: {
                          act: 2407001,
                          id: 0,
-                     }
+                     },
+                },
+                 {
+                         request_url: 'query', 
+                         type: 'nc',
+                         data: {
+                             act: 2404001,
+                         },
                 }
          ],
          actions: [
