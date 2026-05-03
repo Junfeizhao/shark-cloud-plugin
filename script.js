@@ -4,6 +4,14 @@
     [
      {
          name: '五庄观仙果盛会活动',
+         beforeRequest: [
+                 {
+                     request_url: 'query', 
+                     data: {
+                         act: 2404001
+                     }
+                }
+         ],
          actions: [
              {
                  name: '领取每日封神气韵',
