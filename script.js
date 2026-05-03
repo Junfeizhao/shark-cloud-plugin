@@ -76,7 +76,20 @@
                      uIdx: 'player.uin',
                  }
             },
-
+            {
+                 name: '领取每日获晶钻充值任务奖励',
+                 request_url: 'exchange',
+                 success_message: '草还丹x5',
+                 success_error: '领取每日获晶钻充值任务奖励失败',
+                 hasPackageReturn: true,
+                 type: 'nc',
+                 data: {
+                     id: 23150210,
+                     act: 2404002,
+                     uinY: 'player.uin',
+                     uIdx: 'player.uin',
+                 }
+            },
          ]
      }
  
