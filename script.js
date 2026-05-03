@@ -7,6 +7,7 @@
          preRequest: [
                  {
                      request_url: 'query', 
+                     type: 'nc',
                      data: {
                          act: 2404001
                      }
