@@ -11,6 +11,7 @@
                  success_message: '领取每日免费气韵成功, 获得封神气韵x20',
                  success_error: '领取每日免费气韵失败',
                  hasPackageReturn: true,
+                 type: 'nc',
                  data: {
                      id: 4001,
                      num: 1,
