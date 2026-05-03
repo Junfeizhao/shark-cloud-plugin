@@ -9,7 +9,8 @@
                      request_url: 'query', 
                      type: 'nc',
                      data: {
-                         act: 2404001
+                         act: 2407001,
+                         id: 0,
                      }
                 }
          ],
