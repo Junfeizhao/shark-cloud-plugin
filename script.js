@@ -14,12 +14,30 @@
                      },
                 },
                  {
-                         request_url: 'query', 
-                         type: 'nc',
-                         data: {
-                             act: 2404001,
-                         },
-                }
+                     request_url: 'query', 
+                     type: 'nc',
+                     data: {
+                        act: 2404001,
+                     },
+                },
+
+                {
+                     request_url: 'query', 
+                     type: 'nc',
+                     data: {
+                        act: 2405001,
+                        id:3,
+                     },
+                },
+                {
+                     request_url: 'query', 
+                     type: 'nc',
+                     data: {
+                        act: 2406001,
+                        id:4,
+                     },
+                },
+             
          ],
          actions: [
              {
