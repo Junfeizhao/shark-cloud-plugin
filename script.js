@@ -4,6 +4,8 @@
     [
      {
          name: '五庄观仙果盛会活动',
+         start_time: '2026-04-30 00:00:00',
+         end_time: '2026-05-27 23:59:59',
          preRequest: [
                  {
                      request_url: 'query', 
