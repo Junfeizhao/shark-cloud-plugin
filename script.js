@@ -4,7 +4,7 @@
     [
      {
          name: '五庄观仙果盛会活动',
-         beforeRequest: [
+         preRequest: [
                  {
                      request_url: 'query', 
                      data: {
